@@ -1,0 +1,5 @@
+opencv_python==4.5.5.62
+PyMySQL==1.0.2
+PySide2==5.15.2
+QT-PyQt-PySide-Custom-Widgets==0.3.8
+PyQT5==5.15.4

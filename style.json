@@ -1,0 +1,84 @@
+{
+	"QMainWindow":[
+		{
+			"frameless": true,
+			"transluscentBg": true,
+			"shadow":[
+				{
+					"color": "#fff",
+					"blurRadius": 20,
+					"xOffset": 0,
+					"yOffset": 0,
+					"centralWidget": "centralwidget"
+				}
+			],
+			"navigation":[
+				{
+					"minimize":"minbtn",
+					"close": "closebtn",
+					"restore":[
+						{
+							"buttonName": "chanbtn",
+							"normalIcon": ":/icons/icons/square.svg",
+							"maximizedIcon": ":/icons/icons/copy.svg"
+						}
+					],
+					"moveWindow": "main_body_header",
+					"tittleBar": "main_body_header"
+				}
+			]
+		}
+	],
+	"QPushButtonGroup": [{
+		"Buttons": [
+			"videobtn",
+			"loginbtn",
+			"cambtn",
+			"ifobtn",
+			"homebtn"
+		],
+		"Style":[{
+			"Active": "background-color: #015371;",
+			"NotActive": "background-color: transparent;"
+		}]
+	}],
+	"QCard": [{
+		"cards": [
+			"video_wight"
+		],
+		"shadow":[
+			{
+				"color": "#CCFFFF",
+				"blurRadius": 10,
+				"xOffset": 1,
+				"yOffset": 1
+			}
+		]
+	}],
+	"QCard": [{
+		"cards": [
+			"ifo_widget"
+		],
+		"shadow":[
+			{
+				"color": "#333366",
+				"blurRadius": 20,
+				"xOffset": 1,
+				"yOffset": 1
+			}
+		]
+	}],
+	"QCard": [{
+		"cards": [
+			"ifo_widget_2"
+		],
+		"shadow":[
+			{
+				"color": "#333366",
+				"blurRadius": 20,
+				"xOffset": 1,
+				"yOffset": 1
+			}
+		]
+	}]
+}
