@@ -1,8 +1,8 @@
 # pysystem
 基于对抗神经网络的步态识别系统
 
-整体程序基于PySide，OpenCV，依赖在requirements.txt
-先在界面完成的功能
+整体程序基于PySide，OpenCV，依赖在requirements.txt，主程序main.py
+现在界面完成的功能
 1.打开并播放视频（.mp4和.avi）
 2.打开电脑自带摄像头并自动录像，可在录像前选择保存文件的路径，保存的文件类型为.avi
 3.读取显示数据库（示例），可删除其中的某一行
